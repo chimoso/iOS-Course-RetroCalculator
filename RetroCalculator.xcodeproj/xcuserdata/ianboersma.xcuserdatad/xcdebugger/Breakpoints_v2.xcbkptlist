@@ -51,5 +51,83 @@
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RetroCalculator/ViewController.swift"
+            timestampString = "473532319.777041"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RetroCalculator.ViewController.runningNumber.setter : Swift.String"
+                  moduleName = "RetroCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ianboersma/Desktop/RetroCalculator/RetroCalculator/ViewController.swift"
+                  timestampString = "473532332.838657"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RetroCalculator.ViewController.runningNumber.materializeForSet : Swift.String"
+                  moduleName = "RetroCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ianboersma/Desktop/RetroCalculator/RetroCalculator/ViewController.swift"
+                  timestampString = "473532332.838826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RetroCalculator.ViewController.init (RetroCalculator.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; RetroCalculator.ViewController"
+                  moduleName = "RetroCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ianboersma/Desktop/RetroCalculator/RetroCalculator/ViewController.swift"
+                  timestampString = "473532332.838983"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RetroCalculator.ViewController.init (RetroCalculator.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;RetroCalculator.ViewController&gt;"
+                  moduleName = "RetroCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ianboersma/Desktop/RetroCalculator/RetroCalculator/ViewController.swift"
+                  timestampString = "473532332.839138"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
