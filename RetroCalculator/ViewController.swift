@@ -132,6 +132,13 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func onClearPressed(sender: AnyObject) {
+        
+        currentOperation = Operation.Empty
+        result = ""
+        outputLbl.text = result
+        
+    }
     func playSound() {
         // We make sure sounds don't overlap if user clicks too quickly
         if btnSound.playing {

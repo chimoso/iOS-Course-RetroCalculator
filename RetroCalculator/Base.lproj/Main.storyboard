@@ -33,8 +33,8 @@
                                     <constraint firstAttribute="height" constant="98" id="WPB-07-fTV"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SNg-pi-Gq9">
-                                <rect key="frame" x="155" y="8" width="290" height="585"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SNg-pi-Gq9">
+                                <rect key="frame" x="96" y="8" width="290" height="585"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="A8u-5t-uYG">
                                         <rect key="frame" x="0.0" y="0.0" width="290" height="80"/>
@@ -53,8 +53,8 @@
                                 </subviews>
                                 <animations/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="CZj-vk-IsN" userLabel="Button Stack View">
-                                <rect key="frame" x="165" y="98" width="270" height="485"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="CZj-vk-IsN" userLabel="Button Stack View">
+                                <rect key="frame" x="106" y="98" width="270" height="485"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="OZf-cD-QyS" userLabel="Button Row1 Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="270" height="75"/>
@@ -269,10 +269,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ijr-Ca-9bN" userLabel="Clear Stack View">
                                         <rect key="frame" x="0.0" y="410" width="270" height="75"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clear" translatesAutoresizingMaskIntoConstraints="NO" id="MgX-Pc-6Sz">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLC-89-RYS">
                                                 <rect key="frame" x="0.0" y="0.0" width="270" height="75"/>
                                                 <animations/>
-                                            </imageView>
+                                                <state key="normal" title="Button" image="clear"/>
+                                                <connections>
+                                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cw6-ZA-VdL"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <animations/>
                                         <constraints>
@@ -282,8 +286,8 @@
                                 </subviews>
                                 <animations/>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdW-uh-Ci4" userLabel="outputLbl">
-                                <rect key="frame" x="171" y="33" width="254" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdW-uh-Ci4" userLabel="outputLbl">
+                                <rect key="frame" x="229" y="33" width="254" height="41"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="254" id="tDX-EZ-4Gw"/>
