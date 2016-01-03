@@ -135,6 +135,7 @@ class ViewController: UIViewController {
     @IBAction func onClearPressed(sender: AnyObject) {
         
         currentOperation = Operation.Empty
+        runningNumber = ""
         result = ""
         outputLbl.text = result
         
